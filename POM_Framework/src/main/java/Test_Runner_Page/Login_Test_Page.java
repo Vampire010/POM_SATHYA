@@ -7,7 +7,7 @@ public class Login_Test_Page {
 
 	public static void main(String[] args) 
 	{
-		String Brswr_Type = "firefox";
+		String Brswr_Type = "chrome";
 		String URL = "http://mykidsbank.org/";
 		
 		Launch_Browsers br = new Launch_Browsers();

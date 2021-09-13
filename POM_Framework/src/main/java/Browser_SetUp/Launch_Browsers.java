@@ -28,7 +28,7 @@ public class Launch_Browsers
 		
 		else if(browser_Type.equals("firefox"))
 		{				
-			System.setProperty("webdriver.gecko.driver", "/Users/girishg/git/POM_SATHYA/POM_Framework/Browser_Drivers/chromedriver");
+			System.setProperty("webdriver.gecko.driver", "/Users/girishg/git/POM_SATHYA/POM_Framework/Browser_Drivers/geckodriver");
 			driver = new FirefoxDriver();
 			driver.get(Url);			
 		}
